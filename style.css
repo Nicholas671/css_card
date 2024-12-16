@@ -1,9 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(242, 69, 39);
+    background: radial-gradient(circle at 50%, red, #ab2020 50%, black 75%);
 }
-
-
 
 .card-content {
     background-color: rgb(255, 102, 102);
@@ -11,14 +9,19 @@ body {
     border: 5px solid rgb(96, 26, 38);
     min-height: 400px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 180px;
     text-align: center;
     position: relative;
-    color: mistyrose;
-    text-shadow: black 1px 0 10px;
+    color: rgb(182, 174, 173);
+    text-shadow: black 10px 0 20px;
 }
 
 .card-content img {
     max-width: 95%;
 
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
